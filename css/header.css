@@ -1,0 +1,21 @@
+header {
+    opacity: 0.6;
+    background-image: url("../imagenes/aaa.jpg");
+    background-size: cover; /* Hace que la imagen cubra todo el encabezado */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center center; /* Centra la imagen horizontal y verticalmente */
+    height: 200px; /* Ajusta la altura del encabezado según tus necesidades */
+    position: relative; /* Añade posición relativa para alinear otros elementos */
+}
+
+header img {
+    float: right;
+    max-width: 100%; /* Asegura que la imagen no se desborde del encabezado */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+}
+
+header p {
+    padding: 20px;
+    background-color: chocolate;
+    border: 2px solid red;
+}

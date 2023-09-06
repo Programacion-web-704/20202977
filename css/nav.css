@@ -1,0 +1,32 @@
+nav {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+nav > ul{
+    list-style-type: None; /*Quita los puntos de las listas ul*/
+}
+
+nav > ul > li > a{
+    float: left; /*Está haciendo que las listas se pongan en horizontal a la izquierda*/
+    color: white; /*Color de las listas*/
+    padding: 5px; /*Espacios entre las listas que estan dentro de una lista desordeada (ul)*/
+    border-color: red; /*Color del borde*/
+    border-style: solid; /*Estilo del borde*/
+    border-width: 2px; /*Tamaño del borde*/
+    border-radius: 10px; /*Le añade un radio, el borde se vuelve circular*/
+}
+
+/*Pseudo clases*/
+
+nav ul a:focus{
+    color: red;
+    border-color: blue;
+}
+
+nav ul a:hover{
+    color: red;
+    border-color: blue;
+}
+

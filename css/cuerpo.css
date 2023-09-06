@@ -1,0 +1,14 @@
+section{
+    float:right;
+    width:60%;
+    margin: 6% 5%;
+}
+
+aside{
+    float:left;
+    width:20%;
+    margin: 5% 5%;
+    background-color: aqua;
+}
+
+
